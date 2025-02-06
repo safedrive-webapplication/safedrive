@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    background-image: url('assets/bg-road.jpeg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navContainer {
+    background: #007bff; /* Primary blue color */
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 200px;
+    width: auto;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Info Panel */
+.info-container {
+    background-image: url('assets/bg-road.jpeg');
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-container h2 {
+    color: #007bff;
+}
+
+.info-panel p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Safety Instructions Section */
+.safety-instructions {
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.safety-instructions h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+.safety-instructions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.safety-instructions li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
